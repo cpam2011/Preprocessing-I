@@ -135,8 +135,8 @@ table {
 html,
 body {
   height: 100%;
+  font-family: Arial, sans-serif;
 }
-font-family: Arial, sans-serif;
 img {
   display: inline;
   border-radius: 5px;
