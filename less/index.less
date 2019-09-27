@@ -74,6 +74,9 @@ h1, h2, h3 {
 }
 
 .container {
+	@media(max-width:500px){
+		width: 100%;
+	}
 	max-width: @pagewidth;
 	margin: 0 auto;
 	padding: 10px;
@@ -95,13 +98,6 @@ h1, h2, h3 {
 		}
 	}
 }
-
-.container {
-	@media(max-width: 500px) {
-		width: 100%;
-	}
-}
-
 
 .top-content {
 	p {
